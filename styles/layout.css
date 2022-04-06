@@ -1,8 +1,54 @@
 body {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
 }
 
+main {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5em;
+  
+}
 
+main h2 {
+  color: hsl(0, 0%, 100%)
+}
+
+main p {
+  color: hsl(217, 12%, 63%)
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(217, 12%, 63%)
+}
+
+.one, .two, .three, .four, .five { 
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  background-color: hsl(216, 12%, 54%);
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+}
+
+main button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  background-color: hsl(0, 0%, 100%);
+  color: orange;
+  border-radius: 12px;
+}
 
 footer .attribution {
   font-size: 11px;

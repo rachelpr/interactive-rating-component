@@ -11,9 +11,9 @@ main {
   display: flex;
   width: 35%;
   flex-direction: column;
-  background-color: hsl(213, 19%, 18%);
+  background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
   padding: 1.5em;
-  
+  border-radius: 5%;
 }
 
 main h2 {
@@ -34,7 +34,7 @@ section {
   display: flex;
   justify-content: center;
     align-items: center;
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
   height: 3em;
   width: 3em;
   border-radius: 50%;

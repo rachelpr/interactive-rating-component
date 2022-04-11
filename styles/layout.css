@@ -48,6 +48,12 @@ section {
   color: hsl(217, 12%, 63%)
 }
 
+button { 
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
 .one, .two, .three, .four, .five { 
   display: flex;
   justify-content: center;
@@ -57,11 +63,13 @@ section {
   height: 3em;
   width: 3em;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .submit {
@@ -73,11 +81,13 @@ section {
   color: hsl(0, 0%, 100%);
   border-radius: 20px;
   margin-top: 1.5em;
+  cursor: pointer;
 }
 
 .submit:hover{
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 footer .attribution {

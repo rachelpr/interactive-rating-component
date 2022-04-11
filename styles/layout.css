@@ -5,49 +5,79 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
 }
 
 main {
   display: flex;
-  width: 35%;
+  width: 30%;
   flex-direction: column;
-  background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+  background: linear-gradient(to bottom left, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
   padding: 1.5em;
   border-radius: 5%;
 }
 
 main h2 {
-  color: hsl(0, 0%, 100%)
+  
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 main p {
-  color: hsl(217, 12%, 63%)
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  
+}
+
+.star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  color:hsl(217, 12%, 63%);
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
 }
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: hsl(217, 12%, 63%)
 }
 
 .one, .two, .three, .four, .five { 
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   background-color: hsl(213, 19%, 18%);
+  color:hsl(217, 12%, 63%);
   height: 3em;
   width: 3em;
   border-radius: 50%;
 }
 
-main button {
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2em;
+  height: 2.5em;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin-top: 1.5em;
+}
+
+.submit:hover{
   background-color: hsl(0, 0%, 100%);
-  color: orange;
-  border-radius: 12px;
+  color: hsl(25, 97%, 53%);
 }
 
 footer .attribution {

@@ -11,7 +11,7 @@ body {
 
 main {
   display: flex;
-  width: 30%;
+  width: 25%;
   flex-direction: column;
   background: linear-gradient(to bottom left, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
   padding: 1.5em;
@@ -72,7 +72,12 @@ button {
   cursor: pointer;
 }
 
-.submit {
+.btnClicked {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+#submitRating {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,10 +89,25 @@ button {
   cursor: pointer;
 }
 
-.submit:hover{
+#submitRating:hover{
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
   cursor: pointer;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+}
+
+.thanks h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanks p {
+  text-align: center;
 }
 
 footer .attribution {

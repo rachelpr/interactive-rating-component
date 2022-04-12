@@ -12,7 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@400;700&display=swap"
     rel="stylesheet">
-  <script src="./scripts/app.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -37,24 +38,27 @@
     <p>Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     <section class="numbers">
-      <button class="one" id="one" onclick="changeColour()">1</button>
-      <button class="two" id="two" onclick="changeColour()">2</button>
-      <button class="three">3</button>
-      <button class="four">4</button>
-      <button class="five">5</button>
+      <button class="one" id="btn">1</button>
+      <button class="two" id="btn">2</button>
+      <button class="three" id="btn">3</button>
+      <button class="four" id="btn">4</button>
+      <button class="five" id="btn">5</button>
     </section>
-    <button class="submit">Submit</button>
+    <button id="submitRating" type="submit">Submit</button>
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-
-    <h3>You selected</h3>
-    <!-- Add rating here --> out of 5
-
-    Thank you!
-
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
+    <section class="thanks">
+      <h3>You selected
+        #
+        <!-- Add rating here --> out of 5
+      </h3>
+      <h3>Thank you!</h3>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </section>
   </main>
 
 
@@ -66,7 +70,7 @@
     Coded by <a href="#">Your Name Here</a>.
   </footer>
   -->
-
+  <script src="./scripts/app.js"></script>
 </body>
 
 </html>

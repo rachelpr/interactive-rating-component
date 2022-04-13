@@ -6,20 +6,23 @@ body {
   height: 100vh;
   background-color: hsl(216, 12%, 8%);
   font-size: 15px;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 main {
   display: flex;
   width: 25%;
   flex-direction: column;
-  background: linear-gradient(to bottom left, hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+  background: linear-gradient(
+    to bottom left,
+    hsl(213, 19%, 18%),
+    hsl(216, 12%, 8%)
+  );
   padding: 1.5em;
   border-radius: 5%;
 }
 
 main h2 {
-  
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   margin-bottom: 0;
@@ -28,15 +31,14 @@ main h2 {
 main p {
   color: hsl(217, 12%, 63%);
   font-weight: 400;
-  
 }
 
-.star{
+.star {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(213, 19%, 18%);
-  color:hsl(217, 12%, 63%);
+  color: hsl(217, 12%, 63%);
   height: 3em;
   width: 3em;
   border-radius: 50%;
@@ -45,28 +47,36 @@ main p {
 section {
   display: flex;
   justify-content: space-around;
-  color: hsl(217, 12%, 63%)
+  color: hsl(217, 12%, 63%);
 }
 
-button { 
+button {
   box-shadow: none;
   outline: none;
   border: none;
 }
 
-.one, .two, .three, .four, .five { 
+.numBtn,
+.two,
+.three,
+.four,
+.five {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(213, 19%, 18%);
-  color:hsl(217, 12%, 63%);
+  color: hsl(217, 12%, 63%);
   height: 3em;
   width: 3em;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
@@ -89,7 +99,7 @@ button {
   cursor: pointer;
 }
 
-#submitRating:hover{
+#submitRating:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
   cursor: pointer;

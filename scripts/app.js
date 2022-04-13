@@ -1,11 +1,13 @@
 $(document).ready(function () {
-  //$(".thanks").hide();
+  $(".thanks").hide();
 
-  $("#btn").on("click", function () {
-    $("#btn").toggleClass("btnClicked");
+  $("button").click(function () {
+    let $numBtn = $(this).parents(".numbers").find(".numBtn");
+
+    $($numBtn).toggleClass("btnClicked");
   });
 
   $("#submitRating").on("click", function (event) {
-    //$(".thanks").show()
-  })
+    $(".thanks").show();
+  });
 });

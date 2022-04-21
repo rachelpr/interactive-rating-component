@@ -20,7 +20,9 @@ $(document).ready(function () {
 });
 
 const createThanksElement = function (rating) {
-  let $thanks = $(`
+  const $thanks = $(`<section class="thanks" id="thanks-container"></section>`);
+  let $thanksContent = $(`
+  <span>
       <h3>
         You selected #
         <!-- Add rating here -->
@@ -31,7 +33,8 @@ const createThanksElement = function (rating) {
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
-    `);
+  </span>`);
+  return $thanks.html($thanksContent);
 }
 
 const renderThanks = function (ratings) {

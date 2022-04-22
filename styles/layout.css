@@ -68,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-.numBtn:hover{
+.numBtn:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
@@ -99,7 +99,8 @@ button {
 }
 
 .thanks {
-  display: flex;
+  /*display: flex;*/
+  display: none;
   flex-direction: column;
 }
 
@@ -111,6 +112,10 @@ button {
 
 .thanks p {
   text-align: center;
+}
+
+#selectedNum {
+  padding: 16px;
 }
 
 footer .attribution {

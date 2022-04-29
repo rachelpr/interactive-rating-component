@@ -102,20 +102,36 @@ button {
   /*display: flex;*/
   display: none;
   flex-direction: column;
+  align-items: center;
+  padding: 1em;
 }
-
-.thanks h3 {
+.thanks h2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.thanks p {
-  text-align: center;
+#selection {
+  color: hsl(25, 97%, 53%);
+  font-weight: 100;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 12px;
+  width: 200px;
 }
 
 #selectedNum {
-  padding: 16px;
+  padding: 0.2em;
+}
+
+#thankyou {
+  color: hsl(0, 0%, 100%);
+}
+
+.thanks p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 footer .attribution {

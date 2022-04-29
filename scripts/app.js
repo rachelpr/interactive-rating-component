@@ -7,8 +7,8 @@ $(document).ready(function () {
     $(this).addClass("btnClicked");
     //let $numButton = $(this).parents("button").find(".numBtn");
     //let rating = $(this).attr("value");
-    clickedNum = $(this).text();
-    console.log($(this).html());
+    clickedNum = $(this).text(); 
+    //console.log($(this).html());
   });
 
   $("#submitRating").on("click", function (event) {
@@ -20,7 +20,7 @@ $(document).ready(function () {
     console.log($(".numBtn.btnClicked").text());
 
     //let rating = $(this).attr("value");
-    $("#selectedNum").html(clickedNum);
+    $("#selectedNum").html(clickedNum); 
     //console.log($(".btnClicked").html());
   });
 });

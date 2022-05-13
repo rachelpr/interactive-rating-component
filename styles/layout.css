@@ -11,7 +11,7 @@ body {
 
 main {
   display: flex;
-  width: 33%;
+  width: 20%;
   flex-direction: column;
   background: linear-gradient(
     to bottom left,
@@ -116,7 +116,8 @@ button {
   font-weight: 100;
   background-color: hsl(213, 19%, 18%);
   border-radius: 12px;
-  width: 200px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #selectedNum {

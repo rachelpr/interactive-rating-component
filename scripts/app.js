@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  //$(".thanks").hide();
   let clickedNum = " ";
 
   $(".numBtn").on("click", function () {

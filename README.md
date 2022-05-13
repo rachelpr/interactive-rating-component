@@ -26,6 +26,7 @@ An interactive rating component that allows a user to submit a rating from a sca
 ### Links
 
 - Solution URL: [https://github.com/rachelpr/interactive-rating-component](https://github.com/rachelpr/interactive-rating-component)
+- Live link: [https://shiny-snickerdoodle-d8f2f0.netlify.app/](https://shiny-snickerdoodle-d8f2f0.netlify.app/)
 
 
 ## My process

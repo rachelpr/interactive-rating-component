@@ -22,7 +22,7 @@ main {
   border-radius: 5%;
 }
 
-main h2 {
+main h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   margin-bottom: 0;
@@ -44,7 +44,7 @@ main p {
   border-radius: 50%;
 }
 
-section {
+.numbers {
   display: flex;
   justify-content: space-between;
   color: hsl(217, 12%, 63%);
